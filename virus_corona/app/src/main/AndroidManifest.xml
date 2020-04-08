@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virus_corona">
+
+    <application
+        android:name=".FireApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".tata" />
+        <activity android:name=".zaghouan" />
+        <activity android:name=".tozeur" />
+        <activity android:name=".tataouin" />
+        <activity android:name=".sousse" />
+        <activity android:name=".siliana" />
+        <activity
+            android:name=".ui.login.siliana"
+            android:label="@string/title_activity_siliana" />
+        <activity android:name=".sidibouzid" />
+        <activity android:name=".sfax" />
+        <activity android:name=".nabeul" />
+        <activity android:name=".monastir" />
+        <activity android:name=".medenine" />
+        <activity android:name=".manouba" />
+        <activity android:name=".mahdia" />
+        <activity android:name=".lekef" />
+        <activity android:name=".kebili" />
+        <activity android:name=".kassrine" />
+        <activity android:name=".kairouan" />
+        <activity android:name=".jendouba" />
+        <activity android:name=".gafsa" />
+        <activity android:name=".gabes" />
+        <activity android:name=".bizerte" />
+        <activity android:name=".benarous" />
+        <activity android:name=".beja" />
+        <activity android:name=".ariana" />
+        <activity android:name=".tunis" />
+        <activity android:name=".societe" />
+        <activity android:name=".rzaghouan" />
+        <activity android:name=".rtozeur" />
+        <activity android:name=".rtataouin" />
+        <activity android:name=".rsousse" />
+        <activity android:name=".rsiliana" />
+        <activity android:name=".rsidibouzid" />
+        <activity android:name=".rsfax" />
+        <activity android:name=".rnabeul" />
+        <activity android:name=".rmonastir" />
+        <activity android:name=".rmedenine" />
+        <activity android:name=".rmanouba" />
+        <activity android:name=".rmahdia" />
+        <activity android:name=".rlekef" />
+        <activity android:name=".rkebili" />
+        <activity android:name=".rkassrine" />
+        <activity android:name=".rkairouan" />
+        <activity android:name=".rjandouba" />
+        <activity android:name=".rgafsa" />
+        <activity android:name=".rgabes" />
+        <activity android:name=".rbizerte" />
+        <activity android:name=".rbenarous" />
+        <activity android:name=".rbeja" />
+        <activity android:name=".rariana" />
+        <activity android:name=".rtunis" />
+        <activity android:name=".sante" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

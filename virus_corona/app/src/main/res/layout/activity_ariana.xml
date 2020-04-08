@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ariana">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@mipmap/virus"
+        ></ImageView>
+    <TextView
+
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:hint="ahmedd"
+        android:clickable="true"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal">
+    </TextView>
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="لتبلغ على حالة مشبوه فيها او عدم الالتزام بالحجر الصحي او عملية احتكار في الاسعار
+ عمر المعطيات اللازمة ثم انقر للبعث"></TextView>
+    <EditText
+        android:id="@+id/debutar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="430dp"
+        android:hint="موضوع الشكاية "></EditText>
+    <EditText
+        android:id="@+id/milieu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:hint="العنوان بالكامل و رقم الهاتف من اجل التآكد من صحة معلوماتك"></EditText>
+    <EditText
+        android:id="@+id/fin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:hint="تفضل و اكتب ما تريد التبليغ عنه  بدقة " ></EditText>
+    <Button
+        android:id="@+id/btnar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="120dp"
+        android:text="envoyer"
+        android:background="#00FFFF"
+        android:textColor="#0000FF"
+
+        ></Button>
+</RelativeLayout>

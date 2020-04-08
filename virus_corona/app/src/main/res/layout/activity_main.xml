@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/tunisie">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toute la Tunisie cotre corona"
+        android:textColor="#14E8C8"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"></TextView>
+    <Button
+        android:id="@+id/societe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:background="#28FFFFFF"
+        android:text="espace societé"
+        android:textSize="35dp"
+        android:visibility="visible"
+        android:textColor="#0000FF"></Button>
+    <Button
+        android:id="@+id/sante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="espace santé"
+        android:textSize="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:background="#28FFFFFF"
+        android:textColor="#0000FF"
+        ></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@mipmap/user">
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/cinnn"
+        android:hint="saisieer votre email"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        android:background="#2EEAEA"
+        ></EditText>
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/mdppp"
+        android:hint="saisieer votre mot de passe"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="100dp"
+        android:background="#2EEAEA"
+        ></EditText>
+    <Button
+        android:id="@+id/cnx"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="480dp"
+        android:text="connexion"
+        android:background="#2EA6EA"></Button>
+
+</RelativeLayout>

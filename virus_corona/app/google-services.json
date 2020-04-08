@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476589801356",
+    "firebase_url": "https://virus-coronaa.firebaseio.com",
+    "project_id": "virus-coronaa",
+    "storage_bucket": "virus-coronaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476589801356:android:1d04f0c935fb310cfb60a9",
+        "android_client_info": {
+          "package_name": "com.example.virus_corona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476589801356-g2868be3kp0tpq3fnd8ks0jvj1so1n4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJAV2oOimDkohMv5uYEAJk4BseSjI5nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476589801356-g2868be3kp0tpq3fnd8ks0jvj1so1n4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
